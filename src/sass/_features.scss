@@ -3,7 +3,7 @@
 
     display: grid;
     //grid-template-columns: repeat(3, 1fr);
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     grid-gap: 6rem;
     align-items: start;
 
@@ -11,8 +11,8 @@
 }
 
 .feature{
-    display: grid;
-    grid-template-columns: min-content 1fr;
+    display: subgrid;
+    //grid-template-columns: min-content 1fr;
     grid-row-gap: 1.5rem;
     grid-column-gap: 2.5rem;
 
